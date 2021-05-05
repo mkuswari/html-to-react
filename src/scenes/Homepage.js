@@ -1,8 +1,9 @@
 import React from 'react';
 import Button from 'elements/Button';
+import Header from "components/Header";
 
-export default function Homepage(){
+export default function Homepage() {
     return <div>
-        <Button isPrimary isSmall>Sign Up</Button>
+        <Header></Header>
     </div>
 }
