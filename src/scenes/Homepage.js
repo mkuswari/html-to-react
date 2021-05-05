@@ -1,6 +1,7 @@
 import React from 'react';
 import Section from 'elements/Section';
 import Header from "components/Header";
+import Clients from "components/Clients";
 import HeroImage from 'assets/images/hero-image.png';
 
 import Fade from 'react-reveal/Fade';
@@ -53,5 +54,6 @@ export default function Homepage() {
                 </div>
             </Section>
         </main>
+        <Clients></Clients>
     </div>
 }
