@@ -8,7 +8,7 @@ import Lists from "elements/Lists";
 import Header from "components/Header";
 import Clients from "components/Clients";
 import Feature from "components/Feature";
-// import Footer from "components/Footer";
+import Footer from "components/Footer";
 
 import HeroImage from "assets/images/hero-image.png";
 import FeatureTile01 from "assets/images/feature-tile-icon-01.svg";
@@ -192,7 +192,7 @@ export default function Homepage() {
           </div>
         </Section>
       </main>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }
